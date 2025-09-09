@@ -15,7 +15,7 @@ function App() {
   const streamRef = useRef(null);
 
   const serverIp = 'kb.optalpha.com';
-  const wsUrl = `ws://${serverIp}:8765`;
+  const wsUrl = `wss://${serverIp}:8765`;
 
   const params = {
     uid: 'guest_user_' + Date.now(),
