@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #63A6B4, #2C5D63);
+  color: white;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.counter {
+  margin-bottom: 40px;
+}
+
+.counter h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.count-display {
+  font-size: 5rem;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.noise {
+  color: #FFA500;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.record-btn {
+  background: rgba(255, 255, 255, 0.9);
+  color: #2C5D63;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.record-btn:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.05);
+}
+
+.record-btn.recording {
+  background: #FF6B6B;
+  color: white;
+}
+
+.record-btn.recording:hover {
+  background: #FF5252;
+}
+
+p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.error {
+  color: #FF6B6B;
+  font-weight: bold;
+}
