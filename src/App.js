@@ -17,7 +17,7 @@ function App() {
   const serverIp = 'kb.optalpha.com';
   // Use ws:// for local development or non-HTTPS deployment
   // For HTTPS deployment, a secure WebSocket server with SSL is required
-  const wsUrl = `ws://${serverIp}:8765`;
+  const wsUrl = `wss://${serverIp}:8765`;
 
   const params = {
     uid: 'guest_user_' + Date.now(),
