@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BreathTrackerReact/static/css/main.296a6474.css",
-    "main.js": "/BreathTrackerReact/static/js/main.a5c47929.js",
+    "main.js": "/BreathTrackerReact/static/js/main.e5e2c1a0.js",
     "static/js/453.50224831.chunk.js": "/BreathTrackerReact/static/js/453.50224831.chunk.js",
     "index.html": "/BreathTrackerReact/index.html",
     "main.296a6474.css.map": "/BreathTrackerReact/static/css/main.296a6474.css.map",
-    "main.a5c47929.js.map": "/BreathTrackerReact/static/js/main.a5c47929.js.map",
+    "main.e5e2c1a0.js.map": "/BreathTrackerReact/static/js/main.e5e2c1a0.js.map",
     "453.50224831.chunk.js.map": "/BreathTrackerReact/static/js/453.50224831.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.296a6474.css",
-    "static/js/main.a5c47929.js"
+    "static/js/main.e5e2c1a0.js"
   ]
 }
